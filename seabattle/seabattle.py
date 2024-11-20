@@ -1,3 +1,6 @@
+import json
+import os
+
 class Ship:
     def __init__(self, name, power, armour):
         self.name = name
@@ -6,6 +9,13 @@ class Ship:
     
     def info(self):
         return f"Name: {self.name}, Power: {self.power}, Armour: {self.armour}"
+    
+    def dict_for_json(self):
+        return {
+            "Name": self.name,
+            "Power": self.power,
+            "Armour": self.armour
+        } 
 
 class Squad:
     def __init__(self):
@@ -20,6 +30,9 @@ class Squad:
         for i, ship in enumerate(self.ships, 1):
             print(f"{ship.info()}")
 
+    def dict_for_json(self):
+        return [ship.dict_for_json() for ship in self.ships]
+
 class Player:
     def __init__(self, name):
         self.name = name
@@ -28,6 +41,30 @@ class Player:
     def show_player_squad_info(self):
         print (f"{self.name}'s squad:")
         self.squad.show_squad_info()
+
+    def dict_for_json(self):
+        return {
+            "name": self.name,
+            "Squadlist": self.squad.dict_for_json()
+        }
+
+def log_battle(Player1, Player2, filename="battle_log.json"):
+    os.remove("battle_log.json")    
+
+    try:
+        with open(filename, "r") as file:
+            battle_data = json.load(file)
+    except FileNotFoundError:
+            battle_data = []
+
+    round_data = {
+        "player1": Player1.dict_for_json(),
+        "player2": Player2.dict_for_json()
+    }
+    battle_data.append(round_data)
+
+    with open(filename, "w") as file:
+        json.dump(battle_data, file, indent=4)
 
 print()
 
@@ -64,3 +101,5 @@ Player2.squad.add_ship("usv24", 1, 1)
 Player2.show_player_squad_info()
 
 print()
+
+log_battle(Player1, Player2)

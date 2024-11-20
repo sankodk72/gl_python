@@ -1,0 +1,114 @@
+[
+    {
+        "player1": {
+            "name": "Player1",
+            "Squadlist": [
+                {
+                    "Name": "aircraft11",
+                    "Power": 5,
+                    "Armour": 5
+                },
+                {
+                    "Name": "combat11",
+                    "Power": 4,
+                    "Armour": 4
+                },
+                {
+                    "Name": "submarine11",
+                    "Power": 3,
+                    "Armour": 3
+                },
+                {
+                    "Name": "submarine12",
+                    "Power": 3,
+                    "Armour": 3
+                },
+                {
+                    "Name": "patrol11",
+                    "Power": 2,
+                    "Armour": 2
+                },
+                {
+                    "Name": "patrol12",
+                    "Power": 2,
+                    "Armour": 2
+                },
+                {
+                    "Name": "usv11",
+                    "Power": 1,
+                    "Armour": 1
+                },
+                {
+                    "Name": "usv12",
+                    "Power": 1,
+                    "Armour": 1
+                },
+                {
+                    "Name": "usv13",
+                    "Power": 1,
+                    "Armour": 1
+                },
+                {
+                    "Name": "usv14",
+                    "Power": 1,
+                    "Armour": 1
+                }
+            ]
+        },
+        "player2": {
+            "name": "Player2",
+            "Squadlist": [
+                {
+                    "Name": "aircraft21",
+                    "Power": 5,
+                    "Armour": 5
+                },
+                {
+                    "Name": "combat21",
+                    "Power": 4,
+                    "Armour": 4
+                },
+                {
+                    "Name": "submarine21",
+                    "Power": 3,
+                    "Armour": 3
+                },
+                {
+                    "Name": "submarine22",
+                    "Power": 3,
+                    "Armour": 3
+                },
+                {
+                    "Name": "patrol21",
+                    "Power": 2,
+                    "Armour": 2
+                },
+                {
+                    "Name": "patrol22",
+                    "Power": 2,
+                    "Armour": 2
+                },
+                {
+                    "Name": "usv21",
+                    "Power": 1,
+                    "Armour": 1
+                },
+                {
+                    "Name": "usv22",
+                    "Power": 1,
+                    "Armour": 1
+                },
+                {
+                    "Name": "usv23",
+                    "Power": 1,
+                    "Armour": 1
+                },
+                {
+                    "Name": "usv24",
+                    "Power": 1,
+                    "Armour": 1
+                }
+            ]
+        }
+    }
+]
