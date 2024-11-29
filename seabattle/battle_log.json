@@ -1,114 +1,475 @@
 [
     {
-        "player1": {
-            "name": "Player1",
-            "Squadlist": [
-                {
-                    "Name": "aircraft11",
-                    "Power": 5,
-                    "Armour": 5
-                },
-                {
-                    "Name": "combat11",
-                    "Power": 4,
-                    "Armour": 4
-                },
-                {
-                    "Name": "submarine11",
-                    "Power": 3,
-                    "Armour": 3
-                },
-                {
-                    "Name": "submarine12",
-                    "Power": 3,
-                    "Armour": 3
-                },
-                {
-                    "Name": "patrol11",
-                    "Power": 2,
-                    "Armour": 2
-                },
-                {
-                    "Name": "patrol12",
-                    "Power": 2,
-                    "Armour": 2
-                },
-                {
-                    "Name": "usv11",
-                    "Power": 1,
-                    "Armour": 1
-                },
-                {
-                    "Name": "usv12",
-                    "Power": 1,
-                    "Armour": 1
-                },
-                {
-                    "Name": "usv13",
-                    "Power": 1,
-                    "Armour": 1
-                },
-                {
-                    "Name": "usv14",
-                    "Power": 1,
-                    "Armour": 1
-                }
-            ]
-        },
-        "player2": {
-            "name": "Player2",
-            "Squadlist": [
-                {
-                    "Name": "aircraft21",
-                    "Power": 5,
-                    "Armour": 5
-                },
-                {
-                    "Name": "combat21",
-                    "Power": 4,
-                    "Armour": 4
-                },
-                {
-                    "Name": "submarine21",
-                    "Power": 3,
-                    "Armour": 3
-                },
-                {
-                    "Name": "submarine22",
-                    "Power": 3,
-                    "Armour": 3
-                },
-                {
-                    "Name": "patrol21",
-                    "Power": 2,
-                    "Armour": 2
-                },
-                {
-                    "Name": "patrol22",
-                    "Power": 2,
-                    "Armour": 2
-                },
-                {
-                    "Name": "usv21",
-                    "Power": 1,
-                    "Armour": 1
-                },
-                {
-                    "Name": "usv22",
-                    "Power": 1,
-                    "Armour": 1
-                },
-                {
-                    "Name": "usv23",
-                    "Power": 1,
-                    "Armour": 1
-                },
-                {
-                    "Name": "usv24",
-                    "Power": 1,
-                    "Armour": 1
-                }
-            ]
-        }
+        "round": 1,
+        "attacks": [
+            {
+                "attacker": "Aircraft1",
+                "attacker_player": "Player1",
+                "target": "Submarine21",
+                "target_player": "Player2",
+                "damage": 70.238,
+                "target_armour_left": 129.762
+            },
+            {
+                "attacker": "Combat1",
+                "attacker_player": "Player1",
+                "target": "Submarine21",
+                "target_player": "Player2",
+                "damage": 74.648,
+                "target_armour_left": 55.114000000000004
+            },
+            {
+                "attacker": "Submarine11",
+                "attacker_player": "Player1",
+                "target": "Usv23",
+                "target_player": "Player2",
+                "damage": 46.615,
+                "target_armour_left": 33.385
+            },
+            {
+                "attacker": "Submarine12",
+                "attacker_player": "Player1",
+                "target": "Submarine22",
+                "target_player": "Player2",
+                "damage": 88.916,
+                "target_armour_left": 111.084
+            },
+            {
+                "attacker": "Patrol11",
+                "attacker_player": "Player1",
+                "target": "Combat2",
+                "target_player": "Player2",
+                "damage": 20.083,
+                "target_armour_left": 279.91700000000003
+            },
+            {
+                "attacker": "Patrol12",
+                "attacker_player": "Player1",
+                "target": "Submarine21",
+                "target_player": "Player2",
+                "damage": 59.198,
+                "target_armour_left": 0
+            },
+            {
+                "attacker": "Usv11",
+                "attacker_player": "Player1",
+                "target": "Usv23",
+                "target_player": "Player2",
+                "damage": 69.318,
+                "target_armour_left": 0
+            },
+            {
+                "attacker": "Usv12",
+                "attacker_player": "Player1",
+                "target": "Patrol21",
+                "target_player": "Player2",
+                "damage": 28.553,
+                "target_armour_left": 111.447
+            },
+            {
+                "attacker": "Usv13",
+                "attacker_player": "Player1",
+                "target": "Aircraft2",
+                "target_player": "Player2",
+                "damage": 27.392,
+                "target_armour_left": 372.608
+            },
+            {
+                "attacker": "Usv14",
+                "attacker_player": "Player1",
+                "target": "Patrol22",
+                "target_player": "Player2",
+                "damage": 44.045,
+                "target_armour_left": 95.955
+            },
+            {
+                "attacker": "Aircraft2",
+                "attacker_player": "Player1",
+                "target": "Usv14",
+                "target_player": "Player2",
+                "damage": 90.63,
+                "target_armour_left": 0
+            },
+            {
+                "attacker": "Combat2",
+                "attacker_player": "Player1",
+                "target": "Submarine11",
+                "target_player": "Player2",
+                "damage": 94.037,
+                "target_armour_left": 105.963
+            },
+            {
+                "attacker": "Submarine22",
+                "attacker_player": "Player1",
+                "target": "Submarine12",
+                "target_player": "Player2",
+                "damage": 87.362,
+                "target_armour_left": 112.638
+            },
+            {
+                "attacker": "Patrol21",
+                "attacker_player": "Player1",
+                "target": "Usv13",
+                "target_player": "Player2",
+                "damage": 48.032,
+                "target_armour_left": 31.968000000000004
+            },
+            {
+                "attacker": "Patrol22",
+                "attacker_player": "Player1",
+                "target": "Usv11",
+                "target_player": "Player2",
+                "damage": 29.969,
+                "target_armour_left": 50.031
+            },
+            {
+                "attacker": "Usv21",
+                "attacker_player": "Player1",
+                "target": "Usv13",
+                "target_player": "Player2",
+                "damage": 25.256,
+                "target_armour_left": 6.712000000000003
+            },
+            {
+                "attacker": "Usv22",
+                "attacker_player": "Player1",
+                "target": "Submarine12",
+                "target_player": "Player2",
+                "damage": 54.8,
+                "target_armour_left": 57.83800000000001
+            },
+            {
+                "attacker": "Usv24",
+                "attacker_player": "Player1",
+                "target": "Combat1",
+                "target_player": "Player2",
+                "damage": 62.478,
+                "target_armour_left": 237.522
+            }
+        ]
+    },
+    {
+        "round": 2,
+        "attacks": [
+            {
+                "attacker": "Aircraft1",
+                "attacker_player": "Player1",
+                "target": "Aircraft2",
+                "target_player": "Player2",
+                "damage": 115.368,
+                "target_armour_left": 257.24
+            },
+            {
+                "attacker": "Combat1",
+                "attacker_player": "Player1",
+                "target": "Patrol22",
+                "target_player": "Player2",
+                "damage": 75.862,
+                "target_armour_left": 20.093000000000004
+            },
+            {
+                "attacker": "Submarine11",
+                "attacker_player": "Player1",
+                "target": "Patrol22",
+                "target_player": "Player2",
+                "damage": 88.384,
+                "target_armour_left": 0
+            },
+            {
+                "attacker": "Submarine12",
+                "attacker_player": "Player1",
+                "target": "Usv22",
+                "target_player": "Player2",
+                "damage": 34.957,
+                "target_armour_left": 45.043
+            },
+            {
+                "attacker": "Patrol11",
+                "attacker_player": "Player1",
+                "target": "Usv24",
+                "target_player": "Player2",
+                "damage": 58.388,
+                "target_armour_left": 21.612000000000002
+            },
+            {
+                "attacker": "Patrol12",
+                "attacker_player": "Player1",
+                "target": "Patrol21",
+                "target_player": "Player2",
+                "damage": 42.453,
+                "target_armour_left": 68.994
+            },
+            {
+                "attacker": "Usv11",
+                "attacker_player": "Player1",
+                "target": "Usv21",
+                "target_player": "Player2",
+                "damage": 56.601,
+                "target_armour_left": 23.399
+            },
+            {
+                "attacker": "Usv12",
+                "attacker_player": "Player1",
+                "target": "Combat2",
+                "target_player": "Player2",
+                "damage": 46.349,
+                "target_armour_left": 233.56800000000004
+            },
+            {
+                "attacker": "Usv13",
+                "attacker_player": "Player1",
+                "target": "Usv21",
+                "target_player": "Player2",
+                "damage": 64.432,
+                "target_armour_left": 0
+            },
+            {
+                "attacker": "Aircraft2",
+                "attacker_player": "Player1",
+                "target": "Submarine12",
+                "target_player": "Player2",
+                "damage": 87.957,
+                "target_armour_left": 0
+            },
+            {
+                "attacker": "Combat2",
+                "attacker_player": "Player1",
+                "target": "Combat1",
+                "target_player": "Player2",
+                "damage": 78.759,
+                "target_armour_left": 158.76299999999998
+            },
+            {
+                "attacker": "Submarine22",
+                "attacker_player": "Player1",
+                "target": "Usv13",
+                "target_player": "Player2",
+                "damage": 47.009,
+                "target_armour_left": 0
+            },
+            {
+                "attacker": "Patrol21",
+                "attacker_player": "Player1",
+                "target": "Usv12",
+                "target_player": "Player2",
+                "damage": 46.717,
+                "target_armour_left": 33.283
+            },
+            {
+                "attacker": "Usv22",
+                "attacker_player": "Player1",
+                "target": "Usv11",
+                "target_player": "Player2",
+                "damage": 38.262,
+                "target_armour_left": 11.768999999999998
+            },
+            {
+                "attacker": "Usv24",
+                "attacker_player": "Player1",
+                "target": "Submarine11",
+                "target_player": "Player2",
+                "damage": 50.229,
+                "target_armour_left": 55.733999999999995
+            }
+        ]
+    },
+    {
+        "round": 3,
+        "attacks": [
+            {
+                "attacker": "Aircraft1",
+                "attacker_player": "Player1",
+                "target": "Usv24",
+                "target_player": "Player2",
+                "damage": 30.836,
+                "target_armour_left": 0
+            },
+            {
+                "attacker": "Combat1",
+                "attacker_player": "Player1",
+                "target": "Combat2",
+                "target_player": "Player2",
+                "damage": 53.266,
+                "target_armour_left": 180.30200000000005
+            },
+            {
+                "attacker": "Submarine11",
+                "attacker_player": "Player1",
+                "target": "Submarine22",
+                "target_player": "Player2",
+                "damage": 82.969,
+                "target_armour_left": 28.11500000000001
+            },
+            {
+                "attacker": "Patrol11",
+                "attacker_player": "Player1",
+                "target": "Aircraft2",
+                "target_player": "Player2",
+                "damage": 50.541,
+                "target_armour_left": 206.699
+            },
+            {
+                "attacker": "Patrol12",
+                "attacker_player": "Player1",
+                "target": "Patrol21",
+                "target_player": "Player2",
+                "damage": 41.623,
+                "target_armour_left": 27.371000000000002
+            },
+            {
+                "attacker": "Usv11",
+                "attacker_player": "Player1",
+                "target": "Aircraft2",
+                "target_player": "Player2",
+                "damage": 24.122,
+                "target_armour_left": 182.577
+            },
+            {
+                "attacker": "Usv12",
+                "attacker_player": "Player1",
+                "target": "Submarine22",
+                "target_player": "Player2",
+                "damage": 39.115,
+                "target_armour_left": 0
+            },
+            {
+                "attacker": "Aircraft2",
+                "attacker_player": "Player1",
+                "target": "Patrol11",
+                "target_player": "Player2",
+                "damage": 75.953,
+                "target_armour_left": 64.047
+            },
+            {
+                "attacker": "Combat2",
+                "attacker_player": "Player1",
+                "target": "Patrol12",
+                "target_player": "Player2",
+                "damage": 84.13,
+                "target_armour_left": 55.870000000000005
+            },
+            {
+                "attacker": "Patrol21",
+                "attacker_player": "Player1",
+                "target": "Submarine11",
+                "target_player": "Player2",
+                "damage": 49.065,
+                "target_armour_left": 6.668999999999997
+            },
+            {
+                "attacker": "Usv22",
+                "attacker_player": "Player1",
+                "target": "Aircraft1",
+                "target_player": "Player2",
+                "damage": 62.978,
+                "target_armour_left": 337.022
+            }
+        ]
+    },
+    {
+        "round": 4,
+        "attacks": [
+            {
+                "attacker": "Aircraft1",
+                "attacker_player": "Player1",
+                "target": "Aircraft2",
+                "target_player": "Player2",
+                "damage": 63.351,
+                "target_armour_left": 119.226
+            },
+            {
+                "attacker": "Combat1",
+                "attacker_player": "Player1",
+                "target": "Aircraft2",
+                "target_player": "Player2",
+                "damage": 86.06,
+                "target_armour_left": 33.166
+            },
+            {
+                "attacker": "Submarine11",
+                "attacker_player": "Player1",
+                "target": "Combat2",
+                "target_player": "Player2",
+                "damage": 82.099,
+                "target_armour_left": 98.20300000000005
+            },
+            {
+                "attacker": "Patrol11",
+                "attacker_player": "Player1",
+                "target": "Patrol21",
+                "target_player": "Player2",
+                "damage": 25.91,
+                "target_armour_left": 1.461000000000002
+            },
+            {
+                "attacker": "Patrol12",
+                "attacker_player": "Player1",
+                "target": "Aircraft2",
+                "target_player": "Player2",
+                "damage": 28.607,
+                "target_armour_left": 4.5589999999999975
+            },
+            {
+                "attacker": "Usv11",
+                "attacker_player": "Player1",
+                "target": "Aircraft2",
+                "target_player": "Player2",
+                "damage": 30.918,
+                "target_armour_left": 0
+            },
+            {
+                "attacker": "Usv12",
+                "attacker_player": "Player1",
+                "target": "Patrol21",
+                "target_player": "Player2",
+                "damage": 59.224,
+                "target_armour_left": 0
+            },
+            {
+                "attacker": "Combat2",
+                "attacker_player": "Player1",
+                "target": "Combat1",
+                "target_player": "Player2",
+                "damage": 35.873,
+                "target_armour_left": 122.88999999999999
+            },
+            {
+                "attacker": "Usv22",
+                "attacker_player": "Player1",
+                "target": "Aircraft1",
+                "target_player": "Player2",
+                "damage": 30.151,
+                "target_armour_left": 306.871
+            }
+        ]
+    },
+    {
+        "round": 5,
+        "attacks": [
+            {
+                "attacker": "Aircraft1",
+                "attacker_player": "Player1",
+                "target": "Combat2",
+                "target_player": "Player2",
+                "damage": 83.046,
+                "target_armour_left": 15.157000000000039
+            },
+            {
+                "attacker": "Combat1",
+                "attacker_player": "Player1",
+                "target": "Combat2",
+                "target_player": "Player2",
+                "damage": 61.459,
+                "target_armour_left": 0
+            },
+            {
+                "attacker": "Submarine11",
+                "attacker_player": "Player1",
+                "target": "Usv22",
+                "target_player": "Player2",
+                "damage": 76.144,
+                "target_armour_left": 0
+            }
+        ]
     }
 ]
